@@ -32,7 +32,7 @@ class String
     # count the number of elements after the split
     i = 0
     while i <sentences.count
-      return word[i]
+      return senteces[i]
       i += 1
     end
     #eliminate empty strings from an array
