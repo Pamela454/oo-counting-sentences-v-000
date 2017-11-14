@@ -27,6 +27,7 @@ class String
   end
 
   def count_sentences
-
+    # split the string based on punctuation
+    if 
   end
 end
