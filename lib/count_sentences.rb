@@ -28,13 +28,9 @@ class String
 
   def count_sentences
     # split the string based on punctuation
-    sentences = self.split(".", "!", "?")
+    self.split(/".", "!", "?"/).delete_if {|w| w.size < 2}.sizes
     # count the number of elements after the split
-    i = 0
-    while i <sentences.count
-      return senteces[i]
-      i += 1
-    end
+  
     #eliminate empty strings from an array
   end
 end
