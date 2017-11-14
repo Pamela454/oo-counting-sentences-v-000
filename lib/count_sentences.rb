@@ -28,9 +28,9 @@ class String
 
   def count_sentences
     # split the string based on punctuation
-    if 
+    self.split(".", "!", "?")
     # count the number of elements after the split
 
-    #eliminate empty strings from an array 
+    #eliminate empty strings from an array
   end
 end
