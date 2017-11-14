@@ -30,7 +30,10 @@ class String
     # split the string based on punctuation
     sentences = self.split(".", "!", "?")
     # count the number of elements after the split
-    
+    i = 0
+    while i <sentences.count 
+      return word[i]
+      i += 1
     #eliminate empty strings from an array
   end
 end
