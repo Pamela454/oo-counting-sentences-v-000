@@ -4,6 +4,7 @@ class String
 
   def sentence?
     self.end_with? = . 
+    return true
   end
 
   def question?
